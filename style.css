@@ -1,0 +1,134 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+    background: transparent linear-gradient(136deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.text-exlight{
+    
+    font-weight: 200;
+}
+.text-light{
+    font-weight: 300;
+}
+.text-regular{
+    font-weight: 400;
+}
+.text-medium{
+    font-weight: 500;
+}
+
+.contents{
+    display: flex;
+    padding-left:5em;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    gap:10px;
+
+}
+.circle{
+    margin-top: 6px;
+    height:2em;
+    width:2em;
+    border: 2px solid #E7A09E;
+    border-radius: 50%;
+    opacity: 1;
+}
+.logo-text{
+    text-align: left;
+
+letter-spacing: 6px;
+color: #5F5A5A;
+opacity: 1;
+
+}
+
+
+.main-text{
+    padding-top: 5em   ;
+    text-align: left;
+
+letter-spacing: 19.2px;
+
+opacity: 1;
+}
+h1{
+    margin-top: -25px;
+    margin-bottom: 1em;
+}
+.coloured{
+    color: #D2A1A2;
+}
+
+.para{
+    padding-right: 10em;
+    text-align: left;
+font: normal normal 600 13px/26px Open Sans;
+letter-spacing: 0px;
+color: #9A6B69;
+opacity: 1;
+}
+
+.email{
+    border: 1px solid #9A6B69;
+border-radius: 29px;
+opacity: 1;
+height:6vh;
+width: 35vw;
+margin-top: 3em;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.email > input{
+    border:none;
+    
+    height: 100%;
+    width:76%;
+    margin-left: 1em;
+}
+.email > button{
+    
+    float: right;
+    height: 100%;
+    width: 20%;
+    background: #E7A09E 0% 0% no-repeat padding-box;
+border: none;
+box-shadow: 0px 3px 6px #00000029;
+text-align: center;
+color: white;
+border-radius: 29px;
+opacity: 1;
+}
+
+.email >button:hover{
+    background-color: #5F5A5A;
+    transform: scaleX(1.2);
+}
+.image{
+    background: transparent url('./res/Rectangle\ 41.png') 0% 0% no-repeat ;
+    border-left: 1px solid #707070;
+    opacity: 1;
+    background-size: 100% 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+     grid-row-start: 1;
+    grid-row-end:4;
+
+}

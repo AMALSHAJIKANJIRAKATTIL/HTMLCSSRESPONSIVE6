@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    } 
+    .contents{
+        padding-left:1em;
+    padding-top: 0;
+    }
+    .main-text{
+        padding-top: 2em   ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    flex-direction: column;
+    letter-spacing: 19.2px;
+    
+    opacity: 1;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        text-align: center;
+       margin:1em;
+    }
+    .email{
+        justify-content: center;
+        align-items: center;
+        width:89vw;
+    }
+    .mobile-image{
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        flex-grow: 1;
+        
+
+        background-image: url("./res/Rectangle\ 41@2x.png");
+        height: 500px;
+        
+        margin-top:10px;
+        background-size: cover;
+        padding:0;
+    }
+    .image{
+        background: none;
+    }
+}
